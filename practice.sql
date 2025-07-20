@@ -1,0 +1,24 @@
+select * from emp;
+select ename,sal from emp;
+select * from emp where deptno = 10;
+select * from emp where sal>3000;
+select * from emp where comm is not null;
+select * from emp where hiredate > '1982-01-01';
+select deptno,count(*) as total_employee from emp group by deptno;
+select d.ename,d.deptno from emp as a join emp as d on a.deptno = d.deptno;
+select max(sal) from emp;
+select count(*) as total_employee from emp;
+select ename,avg(sal) as average_salary from emp group by ename;
+select avg(sal) as average_salary from emp;
+select min(sal) as minimum_salary,max(sal) as maximum_salary from emp;
+select job,count(*) from emp group by job;
+select deptno,sum(sal) from emp group by deptno;
+select deptno,sum(sal) from emp group by deptno having sum(sal)>8000;
+select job,count(*) from emp group by job having count(*)>2;
+select * from emp where sal =(select max(sal) from emp);
+select * from emp where sal > (select avg(sal) from emp);
+select * from emp where job =(select job from emp where ename= 'ford');
+select sum(sal) from emp where job = 'salesman';
+select count(distinct job) from emp; 
+select deptno,avg(sal) as average_salary from emp group by deptno;
+ 
