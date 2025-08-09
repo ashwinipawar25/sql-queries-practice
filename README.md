@@ -1,3 +1,9 @@
-# daily-sql-queries-task
-Daily SQL practice for data analytics and interview preparation.
+# SQL-Queries-Practice
+
+## Project Title: SQL-Queries-Practice
+## Level: Beginner to Intermediate
+## Database: Sample dataset(employee,department)
+
+
+
 
