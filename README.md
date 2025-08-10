@@ -24,9 +24,10 @@ This Repository is designed for daily SQl practice to improve query writing skil
 **4. Practice tasks**: Problem statements with solution.<br>
 
 ## Author
+
 **Ashwini Pawar**<br>
-**Email**: 2005ashwinipawar@gmail.com<br>
-**Github**: https://github.com/ashwinipawar25
+**Email**: [2005ashwinipawar@gmail.com](mailto:2005ashwinipawar@gmail.com)</a><br>
+**Github**: [ashwinipawar25](https://github.com/ashwinipawar25)
 
 
 
