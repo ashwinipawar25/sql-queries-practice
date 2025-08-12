@@ -3,41 +3,29 @@ use business;
 select * from employee;
 
 -- # where #  comparision operators
-select * from employee
- where salary>50000;
+select * from employee where salary>50000;
 
-select * from employee
- where salary<50000;
+select * from employee where salary<50000;
 
-select * from employee 
- where salary<=36000;
+select * from employee  where salary<=36000;
 
-select name,department,salary from employee
- where salary<=50000;
+select name,department,salary from employee where salary<=50000;
 
-select name,position,gender from employee
- where salary >=50000;
+select name,position,gender from employee where salary >=50000;
 
-select * from employee 
- where department = 'IT';
+select * from employee  where department = 'IT';
 
-select * from employee 
- where gender = 'male';
+select * from employee where gender = 'male';
 
-select * from employee 
- where department = 'finance';
+select * from employee  where department = 'finance';
 
-select * from employee 
- where gender != 'female';
+select * from employee where gender != 'female';
 
-select * from employee
- where gender != 'male';
+select * from employee where gender != 'male';
 
-select * from employee 
- where salary != 50000;
+select * from employee where salary != 50000;
 
-select name,position,join_date,is_active from employee
- where is_active != 0;
+select name,position,join_date,is_active from employee where is_active != 0;
 
 -- # where # Logical Operator
 -- or
