@@ -1,4 +1,5 @@
-downloading  CSV from Google Sheets and Importing into MySQL
+-- downloading  CSV from Google Sheets and Importing into MySQL
+-- diwali sales data
 
 use sample;
 select * from diwali_sales_data;
