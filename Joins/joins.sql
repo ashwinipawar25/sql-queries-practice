@@ -1,6 +1,6 @@
 use practice;
 
-select * from dept;
+select * from dep;
 select * from emp;
 
 -- inner join
