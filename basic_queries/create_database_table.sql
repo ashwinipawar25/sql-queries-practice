@@ -7,7 +7,16 @@ create	database business;
 use business;
 
 -- crate table
-create table employee (emp_id int primary key,name varchar(50),department varchar(50), position varchar(50),salary decimal(10,2),join_date date,gender varchar(10),is_active boolean);
+create table employee (
+  emp_id int primary key,
+  name varchar(50),
+  department varchar(50), 
+  position varchar(50),
+  salary decimal(10,2),
+  join_date date,
+  gender varchar(10),
+  is_active boolean);
+  
 -- insert record in table
 insert into employee (emp_id,name,department,position,salary,join_date,gender,is_active) values 
 (1,'Anita deshmukh','HR','HR Manager',55000.00,'2018-03-01','female',True),
@@ -27,4 +36,5 @@ insert into employee (emp_id,name,department,position,salary,join_date,gender,is
 (15,'Rajesh chavan','Admin','Admin office',45000.00,'2015-09-15','male',True);
 
 -- retrive the data
-select * from employee;
+select * 
+from employee;
