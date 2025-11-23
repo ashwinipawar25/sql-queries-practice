@@ -2,7 +2,7 @@
 -- database is business and table is employee
 use business;
 
--- so we can retrive all record from table 
+-- so we can retrive all record from table
 select * from employee;
 
 -- retrive specifics column from table 
